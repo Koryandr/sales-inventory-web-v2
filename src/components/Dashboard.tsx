@@ -13,30 +13,32 @@ const Dashboard = () => {
             </div>
                 <br/>
                 <hr/>
-            <div className="Remainder">
-                <div className="flex items-center gap-1">
-                    <Warehouse/><p>Остаток на складе</p>
+            <div className="blocks">
+                <div className="Remainder">
+                    <div className="flex items-center gap-1">
+                        <Warehouse/><p>Остаток на складе</p>
+                    </div>
+                    <div className="flex items-center gap-1">
+                        <h1>135</h1><p>Товаров в наличии</p>
+                    </div>
                 </div>
-                <div className="flex items-center gap-1">
-                    <h1>135</h1><p>Товаров в наличии</p>
-                </div>
-            </div>
 
-            <div className="Profit">
-                <div className="flex items-center gap-1">
-                    <Wallet/><p>Прибыль за сегодня</p>
+                <div className="Profit">
+                    <div className="flex items-center gap-1">
+                        <Wallet/><p>Прибыль за сегодня</p>
+                    </div>
+                    <div className="flex items-center gap-1">
+                        <h1>+ 12 500 KZT</h1>
+                    </div>
                 </div>
-                <div className="flex items-center gap-1">
-                    <h1>+ 12 500 KZT</h1>
-                </div>
-            </div>
 
-            <div className="Calendar">
-                <div className="flex items-center gap-1">
-                    <CalendarDays/><p>Прибыль за неделю</p>
-                </div>
-                <div className="flex items-center gap-1">
-                    <h1>+ 78 200 KZT</h1>
+                <div className="Calendar">
+                    <div className="flex items-center gap-1">
+                        <CalendarDays/><p>Прибыль за неделю</p>
+                    </div>
+                    <div className="flex items-center gap-1">
+                        <h1>+ 78 200 KZT</h1>
+                    </div>
                 </div>
             </div>
         </>

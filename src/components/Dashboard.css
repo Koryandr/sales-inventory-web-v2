@@ -11,28 +11,48 @@
     text-align: center;
     font-size: 20px;
     color: #6d7173;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .Remainder{
     border: 1px solid #307fe6;
+    background: linear-gradient(to right, #216dda, #2877e0);
     padding: 20px 25px;
     display: inline-block;
-    background-color: #307fe6;
     color: white;
+    border-radius: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    box-shadow: 10px 5px 5px #222426;
 }
 
 .Profit{
     border: 1px solid #41a47b;
+    background: linear-gradient(to right, #318e6b, #41a47b);
     padding: 20px 25px;
     display: inline-block;
-    background-color: #41a47b;
     color: white;
+    border-radius: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    box-shadow: 10px 5px 5px #222426;
 }
 
 .Calendar{
     border: 1px solid #f58d34;
+    background: linear-gradient(to right, #f2761e, #f68831);
     padding: 20px 25px;
     display: inline-block;
-    background-color: #f58d34;
     color: white;
+    border-radius: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    box-shadow: 10px 5px 5px #222426;
+}
+
+.blocks{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
 }
