@@ -1,0 +1,38 @@
+.main-text{
+    color: #222426;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+.secondary-text{
+    text-align: center;
+    font-size: 20px;
+    color: #6d7173;
+}
+
+.Remainder{
+    border: 1px solid #307fe6;
+    padding: 20px 25px;
+    display: inline-block;
+    background-color: #307fe6;
+    color: white;
+}
+
+.Profit{
+    border: 1px solid #41a47b;
+    padding: 20px 25px;
+    display: inline-block;
+    background-color: #41a47b;
+    color: white;
+}
+
+.Calendar{
+    border: 1px solid #f58d34;
+    padding: 20px 25px;
+    display: inline-block;
+    background-color: #f58d34;
+    color: white;
+}
