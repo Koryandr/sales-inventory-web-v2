@@ -1,0 +1,13 @@
+.main-text{
+    color: #222426;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.add-sales{
+    border: 1px solid #519058;
+    background: linear-gradient(to right, #55925f, #53905b);
+    padding: 0px 20px;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+}
